@@ -1,0 +1,182 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+    border-style: groove;
+    box-shadow: inset;
+    border-radius: 20px;
+}
+
+
+body {
+    background-color: #33ccff;
+    overflow: auto;
+    resize: horizontal;
+    background: rgb(255, 165, 0);
+    background: linear-gradient(90deg, rgba(255, 165, 0, 1) 29%, rgba(255, 255, 255, 1) 39%, rgba(0, 255, 0, 1) 100%);
+    padding-bottom: 40px;
+ 
+}
+
+#dhoniImage {
+    width: 300px;
+    margin: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: 20px;
+}
+
+#caption {
+    align-items: center;
+}
+
+
+.about {
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: auto;
+    justify-content: space-between;
+    width: auto;
+    height: 300px;
+    max-width: 100%;
+    border-style: hidden;
+    border-radius: 10px;
+
+}
+
+#dhoni {
+    border-style: groove;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+
+}
+
+#ach {
+    border-style: groove;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+
+}
+
+.about:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.achievements {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: auto;
+    justify-content: space-between;
+    width: auto;
+    height: 300px;
+    max-width: 100%;
+    border-style: hidden;
+    border-radius: 10px;
+    overflow-x: auto;
+    resize: horizontal;
+
+}
+
+.achievements:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.achievements>h2 {
+    font-style: italic;
+    font-size: small;
+    max-width: fit-content;
+
+}
+
+.content {
+    display: flex;
+    width: auto;
+    flex-basis: auto;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: stretch
+}
+
+
+.legacy {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: auto;
+    justify-content: space-between;
+    width: auto;
+    height: 300px;
+    max-width: 100%;
+    border-style: groove;
+    border-radius: 10px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+
+.legacy>section {
+    border-style: groove;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px
+}
+
+.afterCricket {
+
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: auto;
+    justify-content: space-between;
+    width: auto;
+    height: 300px;
+    max-width: 100%;
+    border-style: hidden;
+    border-radius: 10px;
+
+
+}
+
+.afterCricket>h2 {
+    text-align: center;
+}
+
+#ownerships {}
